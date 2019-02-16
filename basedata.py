@@ -23,9 +23,19 @@ amostra2 = np.random.choice(a = [1,0], size=800050,replace = True,
 
 lenf = len(amostra)
 
+fre1 = (len(amostra[amostra == 1]))
+fre0 = (len(amostra[amostra == 0]))
+
 fra1 = (len(amostra2[amostra2 == 1]))
 fra0 = (len(amostra2[amostra2 == 0]))
 
+
+print ( "Amostra 1" )
+print ("probabilidade de aparecer 0 " ,(fre1 / len(amostra) * 100))
+print ("probabilidade de aparecer 1 " ,(fre0 / len(amostra) * 100))
+
+
+print ( "Amostra 2" )
 print ("probabilidade de aparecer 0 " ,(fra1 / len(amostra2) * 100))
 print ("probabilidade de aparecer 1 " ,(fra0 / len(amostra2) * 100))
 
