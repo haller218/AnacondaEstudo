@@ -16,8 +16,8 @@ np.mean(jogadores)
 
 np.median(jogadores)
 
-quantile = np.quantile(jogadores)
+quantile = np.quantile(jogadores,q=0.8)
 
-np.std(jogadores)
+stdVariance = np.std(jogadores)
 
 stats.describe (jogadores)
