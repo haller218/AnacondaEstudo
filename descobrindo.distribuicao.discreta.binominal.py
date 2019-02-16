@@ -63,7 +63,7 @@ def probabilitDataRow (  ) :
     
     print ("probabilit : ")
     
-    probabilit = 0.2
+    probabilit = 0.5
     
     somatorio = 0
     
@@ -76,7 +76,7 @@ def probabilitDataRow (  ) :
         
         print ( "{0:>3} => {1}".format(i, consta), end=' ' )
         
-        print ( "{0:>20.4f}".format( aux ))
+        print ( "{0:>20.4f}".format( aux*100 ))
     
     
     
