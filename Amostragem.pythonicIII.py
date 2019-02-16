@@ -26,7 +26,7 @@ def media ( lista_valores ) :
     
     
     
-def mediana ( lista_valores = [1,2,3,4,5,6,7,8,9,10] ) : 
+def mediana ( lista_valores = [1,2,3,4,5,6,7,8,9,10] ) :  # Todo
     
     lista_valores.sort()
     
@@ -34,7 +34,7 @@ def mediana ( lista_valores = [1,2,3,4,5,6,7,8,9,10] ) :
     
     
     
-def varianca (  ) :
+def varianca (  ) : # todo
         
     print ("asdf")
     
