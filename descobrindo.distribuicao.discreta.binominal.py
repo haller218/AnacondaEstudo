@@ -83,13 +83,24 @@ def probabilitDataRow (  ) :
     print (somatorio)
     
     
+
+def data_liner_regresion_matlab (  ) :
+    
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    x = np.arange(0, 5, 0.1)
+    y = np.sin(x)
+    plt.plot(x, y)
+    
+    
     
     
 def main (  ) :
     
-    probabilitDataRow (  )
+    # probabilitDataRow (  )
     
-    
+    data_liner_regresion_matlab (  )
     
     
 if __name__ == "__main__":
