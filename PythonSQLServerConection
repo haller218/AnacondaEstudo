@@ -1,0 +1,27 @@
+# -*- coding: utf-8 -*-
+
+import pyodbc as pdb
+import pandas as pd
+import numpy as np
+
+
+query = ""
+query += """
+
+              QUERY
+
+         """
+
+
+
+conection = pdb.connect('Driver={SQL Server};'
+                      'Server=SERVER;'
+                      'Database=DATABASE;'
+                      'uid=USER;pwd=PASSWD')
+
+df = pd.read_sql_query(query, conection)
+
+summary = df.describe()
+
+print ( df )
+print ( summary )
